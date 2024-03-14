@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prediction,
+.excuseGenerator
+{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    flex-direction: column;
+    
+}
+.generator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    margin-bottom: 5px;
+    display: flex;
+    padding: 3px;
+    
+}
+.collectionOfBottons{
+    display: flex;
+}
+
+.excuses{
+    max-width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0 auto;
+}
